@@ -42,6 +42,8 @@ The `SepalWidthCm` column seemed to have the greatest correlation with the `Spec
 
 ### Model Building 
 
-We started by separating the features and the labels, then each were put in training or test set based on a **30%** test set scheme. The results might not be reproducible as we didn't specify a random_state parameter. As the following labelling is a categorical one, we used K-Nearest-Neighbor(KNN). We specified that there are **3** labels that the model should be able to differentiate between: _Iris-setosa_, _Iris-versicolor_, and _Iris-virginica_. The last run of the model gave a **100.0%** accuracy score. The `heatmap` reflecting the cofusion matrix, represents the distribution of correct labels achieved by the KNN model.
+We started by separating the features and the labels, then each were put in training or test set based on a **30%** test set scheme. The results might not be reproducible as we didn't specify a random_state parameter. 
+
+As the following labelling is a categorical one, we used K-Nearest-Neighbor(KNN). We specified that there are **3** labels that the model should be able to differentiate between: _Iris-setosa_, _Iris-versicolor_, and _Iris-virginica_. The last run of the model gave a **100.0%** accuracy score. The `heatmap` reflecting the cofusion matrix, represents the distribution of correct labels achieved by the KNN model.
 
 _Project_Done_
